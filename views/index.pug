@@ -1,0 +1,60 @@
+doctype html
+html
+  head
+    title SSD
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul
+          div#logo 
+            img(src="/static/img/3.png", alt="logo")
+            | HDA
+          li #[a(href="/") Home ]
+          li #[a(href="/") About ]
+          li #[a(href="/") Contact ]
+          li #[a(href="/") Services ]
+          li #[a(href="/") Class Info ]
+
+    section#introsection
+        div Welcome to Shree Sai Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#Missionsection
+        h2 Our Mission
+        div.card
+          h4 Dance Perfection
+          div.card-box
+            div.card-img
+              img(src="/static/img/1.png", alt="image")
+
+            div.card-content
+              p This is the best dance academy of the universe
+        div.card
+          h4 Dance the way you like
+          div.card-box
+            div.card-img
+              img(src="/static/img/2.png", alt="image")
+
+            div.card-content
+              p This is the best dance academy of the universe
+        div.card
+          h4 Expert Teaching
+          div.card-box
+            div.card-img
+              img(src="/static/img/logo2.png", alt="image")
+
+            div.card-content
+              p This is the best dance academy of the universe
+    section#Sponsorsection
+        h2 Our Sponsors
+        div#sponsors 
+          img(src="/static/img/logo1.png", alt="sponsors", Class="spImage")
+          img(src="/static/img/logo.jpg", alt="sponsors", Class="spImage")
+          img(src="/static/img/logo3.jpg", alt="sponsors", Class="spImage")
+          img(src="/static/img/logo4.jpg", alt="sponsors", Class="spImage")
+
+    footer#footer 
+        | Copyright @ 2021 ShreeSaiDanceAcademy.com | All rights reserved 
+    script
+      include ../static/index.js
